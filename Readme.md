@@ -5,6 +5,9 @@
 
 The extentreports-dotnet-cli deprecates [ReportUnit](https://github.com/reportunit/reportunit). Extent Framework is actively maintained and allows using a host of reporters making it very simple to generate test reports. [Klov](http://klov.herokuapp.com/) is the framework's report server and can also be integrated as part of this CLI.
 
+## This is version for .Net Core 2.0
+The original .csproj files was targeted for .NET Framework. Now it can be compiled for .NET Core which make possible to run app on Windows, Ubuntu, Mac, etc.
+
 ### Example
 
 A sample created from NUnit results.xml available [here](http://extentreports.com/docs/versions/4/net/files/dotnetcli/index.html).
