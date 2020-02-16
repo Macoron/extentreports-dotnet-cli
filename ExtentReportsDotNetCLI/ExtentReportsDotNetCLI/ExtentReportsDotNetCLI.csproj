@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ExtentReports.Core" Version="1.0.3" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.5.1" />
+  </ItemGroup>
+
 </Project>
